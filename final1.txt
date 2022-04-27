@@ -1,0 +1,16 @@
+final class Account{
+	int balance =2000;
+}
+class MyAccount extends Account {
+	//balance
+}
+
+
+public class finalcls {
+	public static void main(String args[])
+	{
+MyAccount ac = new MyAccount();
+// ac.balance=50555;
+System.out.println(ac.balance);
+}
+}

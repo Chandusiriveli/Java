@@ -1,0 +1,22 @@
+class A{
+	final void show()
+	{
+		System.out.println("show method in A");
+	}
+}
+class B extends A
+{
+	/* void show()
+	{
+		//super.show();
+		System.out.println("show method in B");
+	} */
+}
+
+public class finalmethod {
+	public static void main(String args[])
+	{
+B ob=new B();
+ob.show();
+}
+}
