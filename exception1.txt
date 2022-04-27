@@ -1,0 +1,18 @@
+class A
+{
+	int marks[]= {10,5,4,7,8};
+	String name="chandu";
+}
+
+
+class Ex2 {
+	public static void main(String args[])
+	{
+		A ob = new A();
+		System.out.println(ob.marks[2]);
+		//System.out.println(ob.marks[5]);
+		System.out.println(ob.name.charAt(6));
+	}
+	
+
+}

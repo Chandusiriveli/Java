@@ -1,0 +1,25 @@
+// program to exception handling 
+class Exception1 {
+	public static void main(String args[])
+	{
+		try {
+		System.out.println(1+2);
+		System.out.println(4*5);
+		System.out.println(6/0);
+		System.out.println("hello");
+		}
+		catch( ArithmeticException e )
+		{
+			System.out.println("please dont divide by zero");
+		}
+		catch( IndexOutOfBoundsException e )
+		{
+			
+		}
+		finally { //must and stood executing 
+		System.out.println("hello");
+	}
+	
+
+}
+}
